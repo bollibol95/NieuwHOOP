@@ -1,0 +1,26 @@
+Objects
+
+1. Particle(inner, outer, middle circel)
+2. Spawner()
+
+Attributes
+1. Particle(innerColor, outerColor, middleColor)
+float speed 
+width, height
+int movementSpeed
+float randomDirection
+float dieTime
+
+
+2. Spawner(int maxAmount)
+float spawnTime
+
+
+Behavior
+Particle
+Particle has innerColor, outerColor and middleColor
+It moves random over the screen. 
+It dies after certain time.
+
+Spawner
+Spawns the particle in every second till the max amount has been made. 
